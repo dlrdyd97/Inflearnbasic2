@@ -5,7 +5,7 @@ import hello.happy.discount.RateDiscountPolicy;
 import hello.happy.member.Member;
 import hello.happy.member.MemberRepository;
 
-public class OrderServiceImpl implements OrderService{
+public class OrderServiceImpl /* extends Object */ implements OrderService {
 
     private final MemberRepository memberRepository;
 //    private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
