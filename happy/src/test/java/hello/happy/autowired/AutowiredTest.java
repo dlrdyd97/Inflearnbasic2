@@ -1,15 +1,11 @@
 package hello.happy.autowired;
 
-import hello.happy.AutoAppConfig;
-import hello.happy.discount.DiscountPolicy;
-import hello.happy.discount.RateDiscountPolicy;
 import hello.happy.member.*;
 import jakarta.annotation.Nullable;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.Optional;
